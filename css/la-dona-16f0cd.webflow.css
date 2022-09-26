@@ -39,7 +39,7 @@ p {
 .logo {
   position: relative;
   width: 500px;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -69,7 +69,7 @@ p {
 }
 
 .image-link {
-  width: 200px;
+  width: 164px;
 }
 
 .grid {
@@ -398,11 +398,17 @@ p {
     text-align: center;
   }
 
+  .nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .image-link {
     width: 159px;
   }
 
   .grid {
+    grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
 
